@@ -21,4 +21,7 @@ PRODUCT_NAME := honami
 PRODUCT_DEVICE := honami
 PRODUCT_MODEL := Xperia Z1 (B2G)
 
+PRODUCT_COPY_FILES += \
+    device/sony/honami/bootrec-device:root/sbin/bootrec-device
+
 $(call inherit-product-if-exists, vendor/sony/honami-blobs/honami-vendor-blobs.mk)
