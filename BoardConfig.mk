@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/rhine/BoardConfig.mk
+include device/sony/rhine/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := C6903
 
-#BOARD_KERNEL_CMDLINE += mem=93M@0  mem=1666M@255M
+BOARD_KERNEL_CMDLINE += androidboot.hardware=honami
 BOARD_KERNEL_CMDLINE += mem=1759M
