@@ -14,12 +14,12 @@
 
 $(call inherit-product, device/sony/honami/aosp_c6903.mk)
 
+GAIA_DEV_PIXELS_PER_PX := 2.25
+BOOTANIMATION_ASSET_SIZE := 1080p
+
 PRODUCT_NAME := honami
 PRODUCT_DEVICE := honami
 PRODUCT_MODEL := Xperia Z1 (B2G)
-
-GAIA_DEV_PIXELS_PER_PX := 2.25
-BOOTANIMATION_ASSET_SIZE := 1080p
 
 PRODUCT_COPY_FILES += \
     device/sony/honami/bootrec-device:root/sbin/bootrec-device
